@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Elements</h1>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="input-field" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="input-field" placeholder="Enter your email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" class="input-field" placeholder="Enter your message"></textarea>
+
+            <label for="checkbox">Checkbox:</label>
+            <input type="checkbox" id="checkbox" name="checkbox" class="checkbox"> Check me out
+
+            <br><br>
+            <label>Radio buttons:</label><br>
+          <!-- <input type="radio" id="radio1" name="radio" value="option1" class="radio" checked>
+            <label for="radio1">Option 1</label>
+            <input type="radio" id="radio2" name="radio" value="option2" class="radio">
+            <label for="radio2">Option 2</label><br>
+            <input type="radio" id="radio3" name="radio" value="option3" class="radio">
+            <label for="radio3">Option 3</label><br> -->
+            
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">0 - 30</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31 - 60</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">61 - 100</label><br><br>
+  
+
+            <label for="dropdown">Dropdown:</label>
+            <select id="dropdown" name="dropdown" class="dropdown">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+
+            <br><br>
+            <input type="submit" value="Submit" class="submit-button">
+            <button type="button" class="custom-button">Button</button>
+        </form>
+    </div>
+</body>
+</html>
